@@ -4,5 +4,5 @@ parameters = [
   { name = "dev.frontend.user_url", value = "http://user-dev.gilbralter.co.uk:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.gilbralter.co.uk:8080/" },
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.gilbralter.co.uk:8080/" }
-  { name = "dev.catalogue.mongo_endpoint", value = "mongo-dev.gilbralter.co.uk" }
+  { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.gilbralter.co.uk" }
 ]
