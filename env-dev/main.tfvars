@@ -10,7 +10,7 @@ parameters = [
   { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "redis-dev.gilbraltar.co.uk" },
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.gilbraltar.co.uk:27017/user" },
-  { name = "dev.cart.resis_host", value = "redis-dev.gilbraltar.co.uk" },
+  { name = "dev.cart.redis_host", value = "redis-dev.gilbraltar.co.uk" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.gilbraltar.co.uk" },
   { name = "dev.cart.catalogue_port", value = "8080" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.gilbraltar.co.uk:8080" },
