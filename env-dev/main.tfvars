@@ -21,8 +21,7 @@ parameters = [
   { name = "dev.payment.user_host", value = "user-dev.gilbraltar.co.uk" },
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.gilbraltar.co.uk" },
-  { name = "dev.payment.amqp_user", value = "roboshop" }
-  
+  { name = "dev.payment.amqp_user", value = "roboshop" } 
 ]
 
 passwords = [
