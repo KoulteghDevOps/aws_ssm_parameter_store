@@ -9,7 +9,7 @@ parameters = [
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   #"mongodb://mongodb-dev.gilbraltar.co.uk:27017/catalogue" },
   { name = "dev.user.mongo", value = "DOCUMENTS=true" },
-  { name = "dev.user.redis.host", value = "redis-dev.gilbraltar.co.uk" },
+  { name = "dev.user.redis.host", value = "elasticache-dev-elasticache.gdyr43.ng.0001.use1.cache.amazonaws.com:6379" },
   # { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.gilbraltar.co.uk:27017/user" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.gilbraltar.co.uk" },
   { name = "dev.cart.redis_host", value = "redis-dev.gilbraltar.co.uk" },
@@ -36,6 +36,6 @@ passwords = [
   { name = "dev.rds.db_pass", value = "roboshop123456" },
   { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
-  { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+  { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
   
 ]
