@@ -15,7 +15,7 @@ parameters = [
   { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.gdyr43.ng.0001.use1.cache.amazonaws.com:6379" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.gilbraltar.co.uk" },
   { name = "dev.cart.catalogue_port", value = "80" },
-  { name = "dev.shipping.cart_endpoint", value = "cart-dev.gilbraltar.co.uk:8080" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.gilbraltar.co.uk:80" },
   { name = "dev.shipping.db_host", value = "mysql-dev.gilbraltar.co.uk" },
   { name = "dev.shipping.db_user", value = "root" },
   { name = "dev.payment.cart_host", value = "cart-dev.gilbraltar.co.uk" },
