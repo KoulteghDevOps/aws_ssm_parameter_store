@@ -8,7 +8,7 @@ parameters = [
   # { name = "dev.catalogue.mongo", value = "MONGO=true" },
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   #"mongodb://mongodb-dev.gilbraltar.co.uk:27017/catalogue" },
-  { name = "dev.user.mongo", value = "DOCUMENTS=true" },
+  { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.redis.host", value = "elasticache-dev-elasticache.gdyr43.ng.0001.use1.cache.amazonaws.com:6379" },
   # { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.gilbraltar.co.uk:27017/user" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.gilbraltar.co.uk" },
