@@ -25,7 +25,7 @@ parameters = [
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.gilbraltar.co.uk" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" } 
-i]
+]
 
 passwords = [
   { name = "dev.payment.amqp_pass", value = "roboshop123" },
