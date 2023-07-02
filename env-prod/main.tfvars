@@ -24,8 +24,8 @@ parameters = [
   { name = "prod.payment.amqp_host", value = "rabbitmq-prod.gilbraltar.co.uk" },
   { name = "prod.payment.amqp_user", value = "roboshop" },
   { name = "prod.docdb.db_endpoint", value = "docdb-prod.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" },
-  { name = "prod.catalogue.docdb_endpoint", value = "docdb-prod.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" },
-  { name = "prod.user.docdb_endpoint", value = "docdb-prod.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" }
+#  { name = "prod.catalogue.docdb_endpoint", value = "docdb-prod.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" },
+#  { name = "prod.user.docdb_endpoint", value = "docdb-prod.cluster-cn4v445mkiqq.us-east-1.docdb.amazonaws.com" },
 
 ]
 
